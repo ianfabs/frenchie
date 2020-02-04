@@ -1,5 +1,5 @@
 # Groucho
-A very crude implementation of mustache templating for deno. Not reccomended for production.
+A tiny and very crude pastiche of mustache templating for deno. Not recommended  for production.
 
 ## Usage
 With a string
