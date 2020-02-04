@@ -36,7 +36,7 @@ A block is any `{{}}` region that *will* return a value.
 ### Void Blocks
 A **void** block is a block that *does not* return anything, beause it's encasing function is `void`.
 These blocks are created by writing `{{#}}` with whatever you would like after the `#`. Technically, because I'm a terrible programmer,
-you could also return code from these blocks. Maybe I'll fix that, or maybe I'll call it a feature. For now it's staying.
+you could also return code from these blocks. Maybe I'll fix that, or maybe I'll just call it a feature.
 
 ## Security Concerns
 To make things easier on myself, I used an insecure feature of javascript. It made writing this code a ***lot** easier. I do have plans to think of a way around this limitation in the future. Currently, I don't know any better methods for accomplishing this, so any support is greatly appreciated.
