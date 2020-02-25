@@ -1,10 +1,10 @@
-# Groucho
+# Frenchie
 A tiny and very crude pastiche of mustache templating for deno. Not recommended  for production.
 
 ## Usage
 With a string
 ```ts
-import { parse } from "https://deno.land/x/groucho/mod.ts";
+import { parse } from "https://deno.land/x/frenchie/mod.ts";
 
 const template = "<h1>Hello there, {{name}}</h1>";
 parse(template, {name: "Wes Bos"}); // => "<h1>Hello there, Wes Bos</h1>"
@@ -18,7 +18,7 @@ With a file:
 
 *app.ts*
 ```ts
-import { parse } from "https://deno.land/x/groucho/mod.ts";
+import { parse } from "https://deno.land/x/frenchie/mod.ts";
 import { readFileStrSync } from "https://deno.land/std/fs/mod.ts";
 
 let file = readFileStrSync(Deno.cwd() + "index.hbs", {encoding: 'utf8'});
